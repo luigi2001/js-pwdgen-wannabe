@@ -9,3 +9,5 @@ var colorePreferito = prompt ('colore preferito');
 console.log (colorePreferito);
 
 alert ('la tua password è:'+ nome + cognome + colorePreferito + '21');
+
+document.getElementById('password').innerHTML = 'la tua password è:'+ nome + cognome + colorePreferito + '21';
